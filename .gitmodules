@@ -210,7 +210,7 @@
 	branch = master
 [submodule "src/code.cloudfoundry.org/cacheddownloader"]
 	path = src/code.cloudfoundry.org/cacheddownloader
-	url = https://github.com/cloudfoundry/cacheddownloader
+	url = https://github.com/pcfdev-forks/cacheddownloader
 	branch = master
 [submodule "src/code.cloudfoundry.org/consuladapter"]
 	path = src/code.cloudfoundry.org/consuladapter
