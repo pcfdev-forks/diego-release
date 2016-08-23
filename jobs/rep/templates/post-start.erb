@@ -2,7 +2,7 @@
 
 address=<%= p("diego.rep.listen_addr").sub(/^0\.0\.0\.0:/, "localhost:") %>
 start=`date +%s`
-timeout=300
+timeout=<%=p("diego.rep.ping_timeout_in_seconds")
 
 echo "$(date): Pinging rep..."
 i=1
